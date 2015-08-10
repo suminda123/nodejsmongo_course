@@ -1,0 +1,16 @@
+{
+  "name": "nodejsmongo_course",
+  "version": "1.0.0",
+  "description": "nodejs mongo course",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "vash": "^0.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "private"
+}
