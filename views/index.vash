@@ -2,7 +2,15 @@
 
     @html.block('content', function(model){
             
-        <h2>@model.name</h2>
+        <form action="/fruitpicker" method="post">
+        	<h1>What is faverite fruit</h1>
+        	 @model.fruits.forEach(function(fruit){
+                    <p>
+                        <input type="radio" name="fruit" value='@fruit' />@fruit
+                    </p>
+                    })
+                    <input type="submit" value="Submit"/>
+        </form>
     })
 
 })
